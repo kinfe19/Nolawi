@@ -1,6 +1,8 @@
 # Nolawi todo
 
-# get to work
+# <i><b>superuser username and password </b></i>
+* <i><b>username: nolawi</b></i>
+* <i><b>password: nolawi</b></i>
 
  # every asset and setup are ready,   just be connect hand and keyboard    
 
