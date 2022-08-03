@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from .models import Task
 from .forms import TaskCreationForm
 
-def hello(request):
+def hello_maritu(request):
     return render(request, 'crudapp/hello.html', {'name': 'World'})
 
 
