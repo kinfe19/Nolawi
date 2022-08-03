@@ -6,6 +6,7 @@ from .forms import TaskCreationForm
 
 
 def index(request):
+    form = None
     if request.method == "POST":
         form = TaskCreationForm(request.POST)
         if form.is_valid():
