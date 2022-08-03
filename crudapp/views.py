@@ -8,7 +8,7 @@ def hello_page(request):
 
 def index(request):
     form = None
-    var = 'Esubalew'
+    var = 'mare'
     if request.method == "POST":
         form = TaskCreationForm(request.POST)
         if form.is_valid():
