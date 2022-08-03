@@ -6,5 +6,20 @@
 </head>
 <body>
     <h1>Nolawi todo app</h1>
+
+
+
+    {%block content%}
+    <h1> hello nolawi </h1>
+    <form method="POST" action="">
+        {% csrf_token %}
+        <input type="text" />
+        <input type ="submit" />
+     
+    </form>
+     
+    {% endblock content %}
+
+    
 </body>
 </html>

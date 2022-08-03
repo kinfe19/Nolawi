@@ -3,6 +3,6 @@ from .views import *
 
 app_name = 'crudapp'
 urlpatterns = [
-    path("", hello, name="hello"),
+    path("", index, name="index"),
 ]
 
