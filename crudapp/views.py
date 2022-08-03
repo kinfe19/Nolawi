@@ -8,6 +8,7 @@ from .forms import TaskCreationForm
 def index(request):
     if request.method == "POST":
         form = TaskCreationForm(request.POST)
+        # print(form)
         if form.is_valid():
             form.save()
             return redirect("/")
