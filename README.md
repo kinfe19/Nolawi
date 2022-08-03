@@ -3,4 +3,7 @@
 
 
 # every asset and setup are ready,   just be connect hand and keyboard   
-![myimage-alt-tag](http://www.quickmeme.com/meme/35ei67)
+
+<p>
+    <img src="[relativePath/file.png](http://www.quickmeme.com/meme/35ei67)" width="220" height="240" />
+</p>
