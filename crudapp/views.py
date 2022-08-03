@@ -1,12 +1,14 @@
-from django.shortcuts import render
-
+from django.shortcuts import render, redirect
+from .models import Task
 from .forms import TaskCreationForm
-# def hello(request):
-#     return render(request, 'crudapp/hello.html', {'name': 'World'})
+
+def hello(request):
+    return render(request, 'crudapp/hello.html', {'name': 'World'})
 
 
 def index(request):
     form = None
+    var = 'mare'
     if request.method == "POST":
         form = TaskCreationForm(request.POST)
         # print(form)
