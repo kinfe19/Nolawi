@@ -8,10 +8,9 @@ def hello(request):
 
 def index(request):
     form = None
-    var = 'mare'
+    var = 'Esubalew'
     if request.method == "POST":
         form = TaskCreationForm(request.POST)
-        # print(form)
         if form.is_valid():
             form.save()
             return redirect("/")
