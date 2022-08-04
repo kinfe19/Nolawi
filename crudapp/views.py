@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from .models import Task
 from .forms import TaskCreationForm
 var = "mattttt"
+name = "beka"
 def mare2(): 
     pass
 def hello_page(request):
