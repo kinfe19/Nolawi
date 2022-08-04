@@ -6,7 +6,7 @@ def hello_page(request):
     return render(request, 'crudapp/hello.html', {'name': 'World'})
 def index(request):
     form = None
-    var = 'Esubalew'
+    var = 'mare22'
     if request.method == "POST":
         form = TaskCreationForm(request.POST)
         if form.is_valid():
