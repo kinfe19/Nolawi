@@ -4,8 +4,6 @@ from .forms import TaskCreationForm
 
 def hello_page(request):
     return render(request, 'crudapp/hello.html', {'name': 'World'})
-
-
 def index(request):
     form = None
     var = 'Esubalew'
@@ -38,3 +36,8 @@ def retrive(requets):
 
 def detail(request ,pk):
     active_detail = Task.objects.get(id=pk)
+
+def list(request):
+    task = Task.objects.all()
+    return render(request, 'list.html',{'task':task})
+
