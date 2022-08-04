@@ -3,6 +3,8 @@ from .models import Task
 from .forms import TaskCreationForm
 def mare(): 
     pass
+def mare3():
+    pass
 def hello_page(request):
     return render(request, 'crudapp/hello.html', {'name': 'World'})
 def list(request):
