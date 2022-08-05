@@ -1,8 +1,9 @@
 from django.shortcuts import render, redirect
 from .models import Task
 from .forms import TaskCreationForm
-new ="angry bird"
-es = "hot bird"
+character = "mare is sweet"
+other_character = "mare is cute"
+otherother = "marrr"
 def hello_page(request):
     return render(request, 'crudapp/hello.html', {'name': 'World'})
 def list(request):
