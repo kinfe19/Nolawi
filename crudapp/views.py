@@ -9,6 +9,7 @@ def list(request):
     todos = Task.objects.all()
     var = 'marrrtyty'
     context = {request,'list.html',context}
+
 def mare(request): 
     var = 'eldanahone'
 
@@ -41,12 +42,7 @@ def delete(request,pk):
     return redirect (request ,'delete.html',context)
 def retrive(requets):
     task = Task.objects.all()
-    return redirect (request , 'list.html',task)
+    return redirect (request, 'list.html',task)
 
 def detail(request ,pk):
     active_detail = Task.objects.get(id=pk)
-
-def list(request):
-    task = Task.objects.all()
-    return render(request, 'list.html',{'task':task})
-
