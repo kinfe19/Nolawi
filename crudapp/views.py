@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from .models import Task
 from .forms import TaskCreationForm
 var =" mar mar"
+var2 = "ale mar mar mar"
 def mare2(): 
     pass
 def name():
