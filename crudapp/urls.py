@@ -5,11 +5,7 @@ app_name = 'crudapp'
 urlpatterns = [
     path("/home", index, name="op"),
     path("",list,name=list),
-    path("l/" ,Nolawi ,name ="io"),
-    path("l/" ,Nolawi ,name ="io"),
-    path("op/",detail ,name="pop")
 
-
-
+    path("high",retrive,name="high")
 ]
 
