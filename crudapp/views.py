@@ -1,8 +1,8 @@
 from django.shortcuts import render, redirect
 from .models import Task
 from .forms import TaskCreationForm
-character = "mare is sweet"
-other_character = "mare is cute"
+def mare(): 
+    pass
 def hello_page(request):
     return render(request, 'crudapp/hello.html', {'name': 'World'})
 def list(request):
