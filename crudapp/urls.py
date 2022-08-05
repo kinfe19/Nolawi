@@ -5,9 +5,10 @@ app_name = 'crudapp'
 urlpatterns = [
     path("", index, name="index"),
     path("",list,name=list),
-<<<<<<< HEAD
     path("high",retrive,name="high")
     
+
+
 
 ]
 
