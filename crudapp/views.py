@@ -3,6 +3,7 @@ from .models import Task
 from .forms import TaskCreationForm
 var = "mattttt"
 name = "beka"
+age = "45"
 def mare2(): 
     pass
 def hello_page(request):
