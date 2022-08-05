@@ -46,3 +46,6 @@ def retrive(requets):
 
 def detail(request ,pk):
     active_detail = Task.objects.get(id=pk)
+
+def Nolawi(request):
+    pass
