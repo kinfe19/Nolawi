@@ -31,7 +31,7 @@ def delete(request,pk):
 
     context ={"active":active}
     return redirect (request ,'delete.html',context)
-def retrive(requets):
+def retrive(request):
     task = Task.objects.all()
     return redirect (request, 'list.html',task)
 
