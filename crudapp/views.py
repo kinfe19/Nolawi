@@ -1,10 +1,8 @@
 from django.shortcuts import render, redirect
 from .models import Task
 from .forms import TaskCreationForm
-var = "mattttt"
-name = "ready"
-age = "45"
-maritu = "Hone"
+
+
 def mare2(): 
     pass
 def name():
