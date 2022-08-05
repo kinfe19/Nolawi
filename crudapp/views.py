@@ -4,6 +4,7 @@ from .forms import TaskCreationForm
 var = "mattttt"
 name = "ready"
 age = "45"
+uuu = "ooouuiu"
 def mare2(): 
     pass
 def hello_page(request):
