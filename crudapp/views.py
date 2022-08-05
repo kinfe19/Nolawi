@@ -1,18 +1,11 @@
+from django.http import JsonResponse
 from django.shortcuts import render, redirect
 from .models import Task
 from .forms import TaskCreationForm
-var =" mar mar"
 
-
-def mare2(): 
-    pass
-def name():
-    pass
-def hello_page(request):
-    return render(request, 'crudapp/hello.html', {'name': 'World'})
 def list(request):
     task = Task.objects.all()
-    return render(request, 'list.html',task)
+    return JsonResponse(task,safe=False)
 
 def index(request):
     form = None
