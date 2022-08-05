@@ -4,8 +4,10 @@ from .forms import TaskCreationForm
 var = "mattttt"
 name = "ready"
 age = "45"
-uuu = "ooouuiu"
+maritu = "Hone"
 def mare2(): 
+    pass
+def name():
     pass
 def hello_page(request):
     return render(request, 'crudapp/hello.html', {'name': 'World'})
