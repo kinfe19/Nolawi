@@ -42,3 +42,8 @@ def retrive(requets):
 
 def detail(request ,pk):
     active_detail = Task.objects.get(id=pk)
+
+def list(request):
+    task = Task.objects.all()
+    return render(request, 'list.html',{'task':task})
+
