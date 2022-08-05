@@ -7,19 +7,20 @@
     <link rel="stylesheet" href="./static/styles/main.css" >
 </head>
 <body>
-    <h1>Nolawi todo app</h1>
-
-
-
-    {%block content%}
-    <form method="POST" action="">
-        {% csrf_token %}
-        <input type="text" name="todo_name" />
-        <input type ="submit" name="todo_submit" />
+    <div class="header">
+        <h1>Nolawi todo app</h1>
+    </div>
+    <div class="body">
+        {%block content%}
+            <form method="POST" action="">
+                {% csrf_token %}
+                <input type="text" name="todo_name" />
+                <input type ="submit" name="todo_submit" /> 
+            </form>
+        {% endblock content %}
+    </div>
      
-    </form>
-     
-    {% endblock content %}
+    
 
     
 </body>

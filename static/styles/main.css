@@ -12,19 +12,13 @@
     margin: 0;
     font-family:'Fira sans',sans-serif;
 }
-:root{
-    --dark:#374151;
-    --darker:#1F2937;
-    --darkest:#111827;
-    --grey:#6B7280;
-    --light:#EEE;
-    --pink:#EC4899;
-    --purple:#8B5CF6;
-}
-*{
-    box-sizing: border-box;
-    margin: 0;
-    font-family:'Fira sans',sans-serif;
+.header{
+    background-color: var(--dark);
+    color: var(--light);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 body{
     display: flex;
@@ -32,6 +26,11 @@ body{
     min-height: 100vh;
     background:var(--dark);
     color:#fff
+}
+.body{
+    position: relative;
+    margin: auto;
+    top: -30;
 }
 .logo img {
     width: 20%;
