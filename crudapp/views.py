@@ -4,16 +4,8 @@ from .forms import TaskCreationForm
 
 def hello_page(request):
     return render(request, 'crudapp/hello.html', {'name': 'World'})
-
-def list(request): 
-    todos = Task.objects.all()
-    var = 'marrrtyty'
-    context = {request,'list.html',context}
-
-def mare(request): 
-    var = 'eldanahone'
-
-
+def list():
+    pass
 def index(request):
     form = None
     var = 'mare22'
