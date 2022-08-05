@@ -1,9 +1,7 @@
 from django.shortcuts import render, redirect
 from .models import Task
 from .forms import TaskCreationForm
-var2 = "mareeeeeeeeeegit git "
-def mare(): 
-    pass
+var = "mattttt"
 def mare2(): 
     pass
 def hello_page(request):
