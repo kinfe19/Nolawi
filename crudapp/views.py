@@ -3,7 +3,7 @@ from .models import Task
 from .forms import TaskCreationForm
 var =" mar mar"
 
-variable = "1234"
+
 def mare2(): 
     pass
 def name():
