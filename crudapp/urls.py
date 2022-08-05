@@ -7,8 +7,5 @@ urlpatterns = [
     path("",list,name=list),
     path("high",retrive,name="high")
     
-
-
-
 ]
 
