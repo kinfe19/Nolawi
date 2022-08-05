@@ -2,9 +2,7 @@ from django.http import JsonResponse
 from django.shortcuts import render, redirect
 from .models import Task
 from .forms import TaskCreationForm
-def list(request):
-    task = Task.objects.all()
-    return JsonResponse(task,safe=False)
+
 
 def index(request):
     form = None
@@ -37,6 +35,3 @@ def retrive(request):
 
 def detail(request ,pk):
     active_detail = Task.objects.get(id=pk)
-
-def Nolawi(request):
-    pass

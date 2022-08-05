@@ -3,8 +3,6 @@ from .views import *
 
 app_name = 'crudapp'
 urlpatterns = [
-    path("", index, name="index-changed-by-es"),
-    path("",list,name=list),
-    path("high",retrive,name="high")
+    path("", index, name="index"),
 ]
 

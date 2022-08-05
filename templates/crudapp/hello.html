@@ -1,8 +1,10 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Nolawi</title>
+    <link rel="stylesheet" href="{% static '' %}">
 </head>
 <body>
     <h1>Nolawi todo app</h1>
@@ -10,11 +12,10 @@
 
 
     {%block content%}
-    <h1> hello nolawi </h1>
     <form method="POST" action="">
         {% csrf_token %}
-        <input type="text" />
-        <input type ="submit" />
+        <input type="text" name="todo_name" />
+        <input type ="submit" name="todo_submit" />
      
     </form>
      
