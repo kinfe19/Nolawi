@@ -1,14 +1,14 @@
+from django.http import JsonResponse
 from django.shortcuts import render, redirect
 from .models import Task
 from .forms import TaskCreationForm
-
-def hello_page(request):
-    return render(request, 'crudapp/hello.html', {'name': 'World'})
-
+bb = "opppps"
+def list(request):
+    task = Task.objects.all()
+    return JsonResponse(task,safe=False)
 
 def index(request):
     form = None
-    var = 'mare22'
     if request.method == "POST":
         form = TaskCreationForm(request.POST)
         if form.is_valid():
@@ -34,7 +34,10 @@ def delete(request,pk):
     return redirect (request ,'delete.html',context)
 def retrive(requets):
     task = Task.objects.all()
-    return redirect (request , 'list.html',task)
+    return redirect (request, 'list.html',task)
 
 def detail(request ,pk):
     active_detail = Task.objects.get(id=pk)
+
+def Nolawi(request):
+    pass
