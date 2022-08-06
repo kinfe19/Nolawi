@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,11 +12,10 @@
 
 
     {%block content%}
-    <h1> hello nolawi </h1>
     <form method="POST" action="">
         {% csrf_token %}
-        <input type="text" />
-        <input type ="submit" />
+        <input type="text" name="todo_name" />
+        <input type ="submit" name="todo_submit" />
      
     </form>
      
