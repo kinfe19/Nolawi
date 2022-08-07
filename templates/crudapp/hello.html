@@ -7,19 +7,22 @@
     <link rel="stylesheet" href="./static/styles/main.css" >
 </head>
 <body>
+    <header>
     <h1>Nolawi todo app</h1>
 
 
 
     {%block content%}
-    <form method="POST" action="">
+    <form id="new-task-form"method="POST" action="">
         {% csrf_token %}
-        <input type="text" name="todo_name" />
-        <input type ="submit" value="submit" name="todo_submit" />
+        <input type="text" id="new-task-input" name="todo_name" placeholder="what do you have planned"/>
+        <input type ="submit" id="new-task-submit" value="add task" name="todo_submit" />
      
     </form>
      
     {% endblock content %}
+</header>
+<h2>heloo</h2>
 
     
 </body>
