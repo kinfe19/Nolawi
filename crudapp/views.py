@@ -2,7 +2,11 @@ from django.http import JsonResponse
 from django.shortcuts import render, redirect
 from .models import Task
 from .forms import TaskCreationForm
+<<<<<<< HEAD
 var = "bek"
+=======
+bb = "opppps"
+>>>>>>> fde2f8f7585b4630d9a9d2f9d291c56085060354
 def list(request):
     task = Task.objects.all()
     return JsonResponse(task,safe=False)
