@@ -3,6 +3,7 @@
     margin: 0;
     font-family:'Fira sans',sans-serif;
 }
+<<<<<<< HEAD
 :root{
     --dark:#374151;
     --darker:#1F2937;
@@ -13,6 +14,16 @@
     --purple:#8B5CF6;
 }
 
+=======
+.header{
+    background-color: var(--dark);
+    color: var(--light);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+>>>>>>> cfffb46e2a0686f102a05bdca26f8ed5a4752fb6
 body{
     display: flex;
     flex-direction: column;
@@ -20,12 +31,19 @@ body{
     background:var(--dark);
     color:#fff
 }
+<<<<<<< HEAD
 header{
     padding: 2rem 2rem;
     max-width: 800px;
     width: 100%;
     margin:0 auto;
     
+=======
+.body{
+    position: relative;
+    margin: auto;
+    top: -30;
+>>>>>>> cfffb46e2a0686f102a05bdca26f8ed5a4752fb6
 }
 .logo img {
     width: 20%;

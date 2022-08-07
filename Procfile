@@ -1,0 +1,1 @@
+web gunicorn Ncrud.wsgi:application --log-file -
