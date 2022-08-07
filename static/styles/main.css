@@ -13,13 +13,11 @@
     --purple:#8B5CF6;
 }
 
-.header{
-    background-color: var(--dark);
-    color: var(--light);
-    padding: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+header{
+    padding: 2rem 2rem;
+    max-width: 800px;
+    width:100% ;
+    margin: 0 auto;
 }
 body{
     display: flex;
