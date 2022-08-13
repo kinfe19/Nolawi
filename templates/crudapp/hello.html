@@ -9,9 +9,6 @@
 <body>
     <header>
     <h1>Nolawi todo app</h1>
-
-
-
     {%block content%}
     <form id="new-task-form"method="POST" action="">
         {% csrf_token %}
@@ -22,5 +19,6 @@
      
     {% endblock content %}
 </header>    
+
 </body>
 </html>
